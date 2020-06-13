@@ -8,9 +8,18 @@
 
 <ion-content class="card-background-page">
   <ion-list>
+    <ion-item>
+      <ion-card>
+          <img class="imagem" src="assets/imgs/pratododia.jpg" />
+            <div class="card-title">Prato do Dia</div>
+            <div class="card-subtitle">Descrição</div>
+
+      </ion-card>
+    </ion-item>
+
       <ion-item>
-        <ion-card>
-            <img class="imagem" src="assets/imgs/lanches.jpg" (click)="show()" />
+        <ion-card  (click)="abreLanches()">
+            <img class="imagem" src="assets/imgs/lanches.jpg" />
               <div class="card-title">Lanches</div>
               <div class="card-subtitle">Descrição</div>
 
@@ -18,24 +27,24 @@
       </ion-item>
 
       <ion-item>
-        <ion-card>
-            <img class="imagem" src="assets/imgs/pratos.jpg" (click)="show()" />
+        <ion-card (click)="abrePratos()">
+            <img class="imagem" src="assets/imgs/pratos.jpg" />
               <div class="card-title">Pratos</div>
               <div class="card-subtitle">Descrição</div>
         </ion-card>
       </ion-item>
 
       <ion-item>
-        <ion-card>
-            <img class="imagem" src="assets/imgs/sobremesas.jpg" (click)="show()" />
+        <ion-card (click)="abreSobremesas()">
+            <img class="imagem" src="assets/imgs/sobremesas.jpg" />
               <div class="card-title">Sobremesas</div>
               <div class="card-subtitle">Descrição</div>
         </ion-card>
       </ion-item>
 
       <ion-item>
-        <ion-card>
-            <img class="imagem" src="assets/imgs/bebidas.jpg" (click)="show()" />
+        <ion-card (click)="abreBebidas()">
+            <img class="imagem" src="assets/imgs/bebidas.jpg" />
               <div class="card-title">Bebidas</div>
               <div class="card-subtitle">Descrição</div>
         </ion-card>
