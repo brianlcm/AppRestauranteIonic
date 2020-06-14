@@ -11,6 +11,7 @@ import { LanchesPage } from '../pages/lanches/lanches';
 import { PratosPage } from '../pages/pratos/pratos';
 import { SobremesasPage } from '../pages/sobremesas/sobremesas';
 import { BebidasPage } from '../pages/bebidas/bebidas';
+import { DetalhesProdutoPage } from '../pages/detalhes-produto/detalhes-produto';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BebidasPage } from '../pages/bebidas/bebidas';
     LanchesPage,
     PratosPage,
     SobremesasPage,
-    BebidasPage
+    BebidasPage,
+    DetalhesProdutoPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { BebidasPage } from '../pages/bebidas/bebidas';
     LanchesPage,
     PratosPage,
     SobremesasPage,
-    BebidasPage
+    BebidasPage,
+    DetalhesProdutoPage
   ],
   providers: [
     StatusBar,
