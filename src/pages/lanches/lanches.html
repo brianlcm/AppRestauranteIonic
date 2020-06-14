@@ -7,12 +7,55 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>lanches</ion-title>
+    <ion-title>Lanches</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content class="card-background-page">
+  <ion-list>
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Hambúrguer', 'Descrição', '12', 'assets/imgs/hamburguer.jpg')">
+          <img class="imagem" src="assets/imgs/hamburguer.jpg" />
+            <div class="card-title">Hambúrguer</div>
+            <div class="card-subtitle">Descrição</div>
+            <div class="card-preco">R$ 12,00</div>
+      </ion-card>
+    </ion-item>
+
+      <ion-item>
+        <ion-card  (click)="abreLanches()">
+            <img class="imagem" src="assets/imgs/lanches.jpg" />
+              <div class="card-title">Lanches</div>
+              <div class="card-subtitle">Descrição</div>
+
+        </ion-card>
+      </ion-item>
+
+      <ion-item>
+        <ion-card (click)="abrePratos()">
+            <img class="imagem" src="assets/imgs/pratos.jpg" />
+              <div class="card-title">Pratos</div>
+              <div class="card-subtitle">Descrição</div>
+        </ion-card>
+      </ion-item>
+
+      <ion-item>
+        <ion-card (click)="abreSobremesas()">
+            <img class="imagem" src="assets/imgs/sobremesas.jpg" />
+              <div class="card-title">Sobremesas</div>
+              <div class="card-subtitle">Descrição</div>
+        </ion-card>
+      </ion-item>
+
+      <ion-item>
+        <ion-card (click)="abreBebidas()">
+            <img class="imagem" src="assets/imgs/bebidas.jpg" />
+              <div class="card-title">Bebidas</div>
+              <div class="card-subtitle">Descrição</div>
+        </ion-card>
+      </ion-item>
+  </ion-list>
 
 </ion-content>

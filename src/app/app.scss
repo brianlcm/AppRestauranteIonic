@@ -14,3 +14,49 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+.toolbar-background {
+    background-color: black;
+  }
+.toolbar-title{
+    color: white;
+}
+
+// Ícone de voltar para a tela anterior
+.bar-button{
+  color: white;
+}
+
+// Definindo o estilo de todas as telas com listas
+.card-background-page{
+  ion-card{
+      position: relative;
+      text-align: center;
+  }
+  .imagem{
+      opacity: 0.4;
+  }
+  .card-title{
+      position: absolute;
+      top: 30%;
+      font-size: 2.0em;
+      width: 100%;
+      font-weight: bold;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .card-subtitle{
+      position: absolute;
+      top: 60%;
+      font-size: 1.0m;
+      width: 100%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .card-preco{
+    position: absolute;
+      top: 70%;
+      font-size: 1.0m;
+      width: 100%;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
