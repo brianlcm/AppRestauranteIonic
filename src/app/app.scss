@@ -34,11 +34,13 @@
   }
   .imagem{
       opacity: 0.4;
+      height: 162px;
   }
   .card-title{
       position: absolute;
       top: 30%;
       font-size: 2.0em;
+      white-space: normal;
       width: 100%;
       font-weight: bold;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
