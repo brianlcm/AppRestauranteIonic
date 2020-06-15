@@ -6,7 +6,6 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { ListaCategoriasPage } from '../pages/lista-categorias/lista-categorias';
 import { LanchesPage } from '../pages/lanches/lanches';
 import { PratosPage } from '../pages/pratos/pratos';
 import { SobremesasPage } from '../pages/sobremesas/sobremesas';
@@ -17,7 +16,6 @@ import { DetalhesProdutoPage } from '../pages/detalhes-produto/detalhes-produto'
   declarations: [
     MyApp,
     HomePage,
-    ListaCategoriasPage,
     LanchesPage,
     PratosPage,
     SobremesasPage,
@@ -32,7 +30,6 @@ import { DetalhesProdutoPage } from '../pages/detalhes-produto/detalhes-produto'
   entryComponents: [
     MyApp,
     HomePage,
-    ListaCategoriasPage,
     LanchesPage,
     PratosPage,
     SobremesasPage,

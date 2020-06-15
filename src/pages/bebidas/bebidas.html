@@ -13,6 +13,47 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content class="card-background-page">
+  <ion-list>
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Chá Verde', 'Chá verde sem açúcar', '3', 'assets/imgs/cha-verde.jpg')">
+          <img class="imagem" src="assets/imgs/cha-verde.jpg" />
+            <div class="card-title">Chá Verde</div>
+            <div class="card-preco">R$ 3,00</div>
+      </ion-card>
+    </ion-item>
+
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Café', 'Café feito na hora', '1', 'assets/imgs/cafe.jpg')">
+          <img class="imagem" src="assets/imgs/cafe.jpg" />
+            <div class="card-title">Café</div>
+            <div class="card-preco">R$ 1,00</div>
+      </ion-card>
+    </ion-item>
+
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Cerveja Artesanal', 'Cerveja Artesanal da cevada da própria fazenda', '7', 'assets/imgs/cerveja.jpg')">
+          <img class="imagem" src="assets/imgs/cerveja.jpg" />
+            <div class="card-title">Cerveja Artesanal</div>
+            <div class="card-preco">R$ 7,00</div>
+      </ion-card>
+    </ion-item>
+    
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Suco de Laranja', 'Suco de laranja natural sem açúcar', '4', 'assets/imgs/suco-laranja.jpg')">
+          <img class="imagem" src="assets/imgs/suco-laranja.jpg" />
+            <div class="card-title">Suco de Laranja</div>
+            <div class="card-preco">R$ 4,00</div>
+      </ion-card>
+    </ion-item>
+
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Refrigerante', 'Refrigerante lata de vários sabores', '5', 'assets/imgs/guarana.jpg')">
+          <img class="imagem" src="assets/imgs/guarana.jpg"/>
+            <div class="card-title">Refrigerante</div>
+            <div class="card-preco">R$ 5,00</div>
+      </ion-card>
+    </ion-item>
+  </ion-list>
 
 </ion-content>

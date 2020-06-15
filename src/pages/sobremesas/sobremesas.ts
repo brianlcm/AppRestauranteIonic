@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { DetalhesProdutoPage } from '../detalhes-produto/detalhes-produto';
 
 /**
  * Generated class for the SobremesasPage page.
@@ -20,6 +21,10 @@ export class SobremesasPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SobremesasPage');
+  }
+  
+  selecionaProduto(titulo: String, descricao: String, preco: number, caminhoImagem: String){
+    this.navCtrl.push(DetalhesProdutoPage, {tituloSelecionado: titulo, descricaoSelecionada: descricao, precoSelecionado: preco, imagem: caminhoImagem},{});
   }
 
 }

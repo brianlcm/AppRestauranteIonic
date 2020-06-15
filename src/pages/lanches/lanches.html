@@ -16,46 +16,44 @@
 <ion-content class="card-background-page">
   <ion-list>
     <ion-item>
-      <ion-card (click)="selecionaProduto('Hambúrguer', 'Descrição', '12', 'assets/imgs/hamburguer.jpg')">
+      <ion-card (click)="selecionaProduto('Hambúrguer', 'Pão de hambúrguer ou integral, bife de frango ou boi, salada, molho da casa (Possui lactose e glúten) e muita mussarela', '10', 'assets/imgs/hamburguer.jpg')">
           <img class="imagem" src="assets/imgs/hamburguer.jpg" />
             <div class="card-title">Hambúrguer</div>
-            <div class="card-subtitle">Descrição</div>
+            <div class="card-preco">R$ 10,00</div>
+      </ion-card>
+    </ion-item>
+
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Cestas de pão com ovo', 'Pão de forma assado em forma de cesta com ovo frito dentro e queijo', '12', 'assets/imgs/cesta-de-pao-de-forma-com-ovo.jpg')">
+          <img class="imagem" src="assets/imgs/cesta-de-pao-de-forma-com-ovo.jpg" />
+            <div class="card-title">Cestas de pão com ovo</div>
             <div class="card-preco">R$ 12,00</div>
       </ion-card>
     </ion-item>
 
-      <ion-item>
-        <ion-card  (click)="abreLanches()">
-            <img class="imagem" src="assets/imgs/lanches.jpg" />
-              <div class="card-title">Lanches</div>
-              <div class="card-subtitle">Descrição</div>
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Pão de Queijo', 'Pão de queijo quentinho e com muito queijo', '1', 'assets/imgs/pao-de-queijo.jpg')">
+          <img class="imagem" src="assets/imgs/pao-de-queijo.jpg" />
+            <div class="card-title">Pão de Queijo</div>
+            <div class="card-preco">R$ 1,00</div>
+      </ion-card>
+    </ion-item>
+    
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Pão com Linguiça', 'Pão recheado com linguiça de porco feita na fazenda própria do restaurante', '7', 'assets/imgs/pao_linguica.jpg')">
+          <img class="imagem" src="assets/imgs/pao_linguica.jpg" />
+            <div class="card-title">Pão com Linguiça</div>
+            <div class="card-preco">R$ 7,00</div>
+      </ion-card>
+    </ion-item>
 
-        </ion-card>
-      </ion-item>
-
-      <ion-item>
-        <ion-card (click)="abrePratos()">
-            <img class="imagem" src="assets/imgs/pratos.jpg" />
-              <div class="card-title">Pratos</div>
-              <div class="card-subtitle">Descrição</div>
-        </ion-card>
-      </ion-item>
-
-      <ion-item>
-        <ion-card (click)="abreSobremesas()">
-            <img class="imagem" src="assets/imgs/sobremesas.jpg" />
-              <div class="card-title">Sobremesas</div>
-              <div class="card-subtitle">Descrição</div>
-        </ion-card>
-      </ion-item>
-
-      <ion-item>
-        <ion-card (click)="abreBebidas()">
-            <img class="imagem" src="assets/imgs/bebidas.jpg" />
-              <div class="card-title">Bebidas</div>
-              <div class="card-subtitle">Descrição</div>
-        </ion-card>
-      </ion-item>
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Misto Quente', 'Pão de forma com presunto e mussarela esquentado na chapa', '4', 'assets/imgs/misto-quente.jpeg')">
+          <img class="imagem" src="assets/imgs/misto-quente.jpeg"/>
+            <div class="card-title">Misto Quente</div>
+            <div class="card-preco">R$ 4,00</div>
+      </ion-card>
+    </ion-item>
   </ion-list>
 
 </ion-content>

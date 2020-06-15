@@ -13,6 +13,47 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content class="card-background-page">
+  <ion-list>
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Pé de Moleque', 'Amendoim com leite condensado em formato de barra', '1,5', 'assets/imgs/pe-de-moleque.jpg')">
+          <img class="imagem" src="assets/imgs/pe-de-moleque.jpg" />
+            <div class="card-title">Pé de Moleque</div>
+            <div class="card-preco">R$ 1,50</div>
+      </ion-card>
+    </ion-item>
+
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Torta Romeu e Julieta', 'Torta feita com queijo e goiabada', '6', 'assets/imgs/torta_romeu_e_julieta.jpg')">
+          <img class="imagem" src="assets/imgs/torta_romeu_e_julieta.jpg" />
+            <div class="card-title">Torta Romeu e Julieta</div>
+            <div class="card-preco">R$ 6,00</div>
+      </ion-card>
+    </ion-item>
+
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Doce de Banana', 'Creme de banana, água, canela e açúcar', '3', 'assets/imgs/doce-de-banana.JPG')">
+          <img class="imagem" src="assets/imgs/doce-de-banana.JPG" />
+            <div class="card-title">Doce de Banana</div>
+            <div class="card-preco">R$ 3,00</div>
+      </ion-card>
+    </ion-item>
+    
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Doce de Leite', 'Creme feito com leite e açúcar', '4', 'assets/imgs/doce-de-leite.jpg')">
+          <img class="imagem" src="assets/imgs/doce-de-leite.jpg" />
+            <div class="card-title">Doce de Leite</div>
+            <div class="card-preco">R$ 4,00</div>
+      </ion-card>
+    </ion-item>
+
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Bolinho de Chuva', 'Bolinho frito de ovo, farinha de trigo, leite, açúcar e canela', '2', 'assets/imgs/bolinho-de-chuva.jpg')">
+          <img class="imagem" src="assets/imgs/bolinho-de-chuva.jpg"/>
+            <div class="card-title">Bolinho de Chuva</div>
+            <div class="card-preco">R$ 2,00</div>
+      </ion-card>
+    </ion-item>
+  </ion-list>
 
 </ion-content>

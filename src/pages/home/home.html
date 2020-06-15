@@ -9,11 +9,10 @@
 <ion-content class="card-background-page">
   <ion-list>
     <ion-item>
-      <ion-card>
+      <ion-card (click)="selecionaProduto('Rabada', 'caldo de rabada com cebola, alho, pimenta e cheiro verde', '10', 'assets/imgs/rabada.jpg')">
           <img class="imagem" src="assets/imgs/pratododia.jpg" />
             <div class="card-title">Prato do Dia</div>
-            <div class="card-subtitle">Descrição</div>
-
+            <div class="card-subtitle">Prato que está em promoção no dia</div>
       </ion-card>
     </ion-item>
 
@@ -21,8 +20,6 @@
         <ion-card  (click)="abreLanches()">
             <img class="imagem" src="assets/imgs/lanches.jpg" />
               <div class="card-title">Lanches</div>
-              <div class="card-subtitle">Descrição</div>
-
         </ion-card>
       </ion-item>
 
@@ -30,7 +27,6 @@
         <ion-card (click)="abrePratos()">
             <img class="imagem" src="assets/imgs/pratos.jpg" />
               <div class="card-title">Pratos</div>
-              <div class="card-subtitle">Descrição</div>
         </ion-card>
       </ion-item>
 
@@ -38,7 +34,6 @@
         <ion-card (click)="abreSobremesas()">
             <img class="imagem" src="assets/imgs/sobremesas.jpg" />
               <div class="card-title">Sobremesas</div>
-              <div class="card-subtitle">Descrição</div>
         </ion-card>
       </ion-item>
 
@@ -46,7 +41,6 @@
         <ion-card (click)="abreBebidas()">
             <img class="imagem" src="assets/imgs/bebidas.jpg" />
               <div class="card-title">Bebidas</div>
-              <div class="card-subtitle">Descrição</div>
         </ion-card>
       </ion-item>
   </ion-list>

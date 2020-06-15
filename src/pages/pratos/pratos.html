@@ -13,6 +13,47 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content class="card-background-page">
+  <ion-list>
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Angu à Baiana', 'Angu em caldo com carne muída, cebolinha e queijo', '15', 'assets/imgs/angu.jpg')">
+          <img class="imagem" src="assets/imgs/angu.jpg" />
+            <div class="card-title">Angu à Baiana</div>
+            <div class="card-preco">R$ 15,00</div>
+      </ion-card>
+    </ion-item>
+
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Escondidinho de Frango Caipira', 'Purê de batata e queijo com frango caipira por dentro e ora-pro-nóbis', '16', 'assets/imgs/escondidinho_frango.jpg')">
+          <img class="imagem" src="assets/imgs/escondidinho_frango.jpg" />
+            <div class="card-title">Escondidinho de Frango Caipira</div>
+            <div class="card-preco">R$ 16,00</div>
+      </ion-card>
+    </ion-item>
+
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Feijoada', 'Caldo de feijão preto com carnes de porco dentro', '15', 'assets/imgs/feijoada.jpg')">
+          <img class="imagem" src="assets/imgs/feijoada.jpg" />
+            <div class="card-title">Feijoada</div>
+            <div class="card-preco">R$ 15,00</div>
+      </ion-card>
+    </ion-item>
+    
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Feijão Tropeiro', 'Feijão misturado com bacon, linguiça, ovo mexido, couve e farinha', '14', 'assets/imgs/tropeiro.jpg')">
+          <img class="imagem" src="assets/imgs/tropeiro.jpg" />
+            <div class="card-title">Feijão Tropeiro</div>
+            <div class="card-preco">R$ 14,00</div>
+      </ion-card>
+    </ion-item>
+
+    <ion-item>
+      <ion-card (click)="selecionaProduto('Rabada', 'Caldo de rabada com cebola, alho, pimenta e cheiro verde', '15', 'assets/imgs/rabada.jpg')">
+          <img class="imagem" src="assets/imgs/rabada.jpg"/>
+            <div class="card-title">Rabada</div>
+            <div class="card-preco">R$ 15,00</div>
+      </ion-card>
+    </ion-item>
+  </ion-list>
 
 </ion-content>
